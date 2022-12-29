@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Petzey.Appointment.Data\Petzey.Appointment.Data.csproj" />
+    <ProjectReference Include="..\Petzey.Appointment.Domain\Petzey.Appointment.Domain.csproj" />
+    <ProjectReference Include="..\Petzey.Appointment.DTO\Petzey.Appointment.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
